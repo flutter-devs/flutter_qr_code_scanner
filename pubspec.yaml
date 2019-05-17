@@ -1,27 +1,30 @@
-name: flutter_qr_code_scaneer_app
-description: A new Flutter QR Code Scanner application.
+name: flutter_qr_code_scanner
+description: A new Flutter QR code scanner application.
 
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
-  barcode_scan: ^0.0.7
+  qr_utils: ^0.1.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
 flutter:
 
   uses-material-design: true
 
   assets:
-      - assets/images/ic_flutter_devs_logo.png
-      - assets/images/ic_powered_by.png
-      - assets/images/ic_scan.png
+    - assets/images/ic_flutter_devs_logo.png
+    - assets/images/ic_powered_by.png
+    - assets/images/ic_scan.png
+
+

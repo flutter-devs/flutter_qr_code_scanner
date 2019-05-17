@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_qr_code_scaneer_app/constant/Constant.dart';
+import 'package:flutter_qr_code_scanner/constant/Constant.dart';
 
 class SplashScreen extends StatefulWidget {
   @override

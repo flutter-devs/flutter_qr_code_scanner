@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:1:1-13:12
+INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:1:1-13:12
+	package
+		ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:2:3-40
+		INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml
+		INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.CAMERA
+ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:4:5-65
+	android:name
+		ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:4:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:5:22-78
+application
+ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:7:5-12:19
+activity#com.aeologic.adhoc.qr_utils.activity.QRScannerActivity
+ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:8:9-11:70
+	android:label
+		ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:10:13-47
+	android:theme
+		ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:11:13-67
+	android:name
+		ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml:9:13-55
+uses-sdk
+INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml
+INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml
+		ADDED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml
+		INJECTED from /Deepak/SDK/FlutterSDK/flutter/.pub-cache/hosted/pub.dartlang.org/qr_utils-0.1.1/android/src/main/AndroidManifest.xml

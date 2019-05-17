@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Deepak/FlutterProjects/Aeologic/flutter_qr_code_scanner/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/deepaknishad/.gradle/caches/transforms-1/files-1.1/core-1.9.13.aar/4574064d93c0c4c6bf71343419a0ac6b/res/values-xxhdpi-v4/values-xxhdpi-v4.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,114",
+                        "endColumns": "58,55",
+                        "endOffsets": "109,165"
+                    }
+                }
+            ]
+        }
+    ]
+}

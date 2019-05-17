@@ -1,7 +1,8 @@
 import 'dart:async';
-import 'package:barcode_scan/barcode_scan.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+
+import 'package:qr_utils/qr_utils.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -118,33 +119,19 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future _openQRScanner() async {
+    String _content;
     try {
-      String _content = await BarcodeScanner.scan();
-      setState(() => this._content = _content);
+      _content = await QrUtils.scanQR;
     } on PlatformException catch (e) {
-      if (e.code == BarcodeScanner.CameraAccessDenied) {
-        showSnackBar('Please grant camera permission!');
-        setState(() {
-          this._content = null;
-        });
-      } else {
-        showSnackBar('Error: $e');
-        setState(() {
-          this._content = null;
-        });
-      }
-    } on FormatException {
-      showSnackBar('User pressed "back" button before scanning');
-      setState(() {
-        this._content = null;
-      });
+      _content=null;
+      showSnackBar('Process Failed!');
     } catch (e) {
-      showSnackBar('Error: $e');
-      setState(() {
-        this._content = null;
-      });
+      _content=null;
+      showSnackBar('Process Failed!');
     }
-
+    setState(() {
+      this._content = _content;
+    });
   }
 
   void showSnackBar(String message) {

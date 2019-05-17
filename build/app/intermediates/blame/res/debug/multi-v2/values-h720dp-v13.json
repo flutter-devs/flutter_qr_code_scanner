@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Deepak/FlutterProjects/Aeologic/flutter_qr_code_scanner/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/deepaknishad/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/743db9bffe162df0b2b9d0641617c49d/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

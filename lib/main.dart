@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_qr_code_scaneer_app/constant/Constant.dart';
-import 'package:flutter_qr_code_scaneer_app/screen/HomeScreen.dart';
-import 'package:flutter_qr_code_scaneer_app/screen/SplashScreen.dart';
+import 'package:flutter_qr_code_scanner/constant/Constant.dart';
+import 'package:flutter_qr_code_scanner/screen/HomeScreen.dart';
+import 'package:flutter_qr_code_scanner/screen/SplashScreen.dart';
 
 void main() => runApp(
       MaterialApp(
